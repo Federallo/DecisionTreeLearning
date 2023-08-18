@@ -18,11 +18,11 @@ i concetti di entropia e di _information gain_.\
 L’entropia è un concetto che va applicato ai valori di un attributo, e indica
 quanto è ”d’impedimento un valore a livello di chiarezza/ univocità nella realizzazione di una funzione discreta”: infatti, maggiore è l’entropia, minore è
 la chiarezza del valore. A livello numerico può essere interpretato nel seguente
-modo:
+modo:\
 ![Alt text](image-2.png)\
 dove $S$ è  un insieme che contiene una serie di target $c$ relativi al valore, mentre $p(i)$ rappresentano le porzioni di ciascun target $c$ presenti in $S$.\
 L'_information gain_, invce, rappresenta l'entropia generata da un determinato attributo.\
-Più precisamente è dato da:
+Più precisamente è dato da:\
 ![Alt text](image-3.png)\
 Dove $values(A)$ sono tutti i valori possibili che può assumere $A$ e $S_v$ è un sottoinsieme di $S$ che contiene i target dei valori $v$ di $A$.\
 \
